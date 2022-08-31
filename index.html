@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixitup project</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".car">Car</button>
+            <button type="button" class="control" data-filter=".laptop">Laptop</button>
+            <button type="button" class="control" data-filter=".bike">Bike</button>
+            <button type="button" class="control" data-filter=".flower">Flower</button>
+            <button type="button" class="control" data-filter=".headphone">Headphone</button>
+        </div>
+        <div class="image-group" id="img">
+
+            <img class="mix car" src="image/c1.jpg" alt="" width="250px">
+            <img class="mix car" src="image/c2.jpg" alt="" width="250px">
+            <img class="mix car" src="image/c3.jpg" alt="" width="250px">
+            <img class="mix car" src="image/c4.jpg" alt="" width="250px">
+            <img class="mix headphone" src="image/H1.jpg" alt="" width="250px">
+            <img class="mix headphone" src="image/H2.jpg" alt="" width="250px">
+            <img class="mix headphone" src="image/H3.jpg" alt="" width="250px">
+            <img class="mix headphone" src="image/H3.jpg" alt="" width="250px">
+            <img class="mix laptop" src="image/L1.jpg" alt="" width="250px">
+            <img class="mix laptop" src="image/L2.jpg" alt="" width="250px">
+            <img class="mix laptop" src="image/L3.jpg" alt="" width="250px">
+            <img class="mix laptop" src="image/L4.jpg" alt="" width="250px">
+            <img class="mix bike" src="image/mc1.jpg" alt="" width="250px">
+            <img class="mix bike" src="image/mc2.jpg" alt="" width="250px">
+            <img class="mix bike" src="image/mc3.jpg" alt="" width="250px">
+            <img class="mix bike" src="image/mc4.jpg" alt="" width="250px">
+            <img class="mix flower" src="image/F2.jpg" alt="" width="250px">
+            <img class="mix flower" src="image/F3.jpg" alt="" width="250px">
+            <img class="mix flower" src="image/F4.jpg" alt="" width="250px">
+            <img class="mix flower" src="image/F1.jpg" alt="" width="250px">
+            
+        </div>
+    </div>
+
+
+
+
+
+
+    
+    <script src="js/mixitup.min.js"></script>
+
+    <script>
+        var Alo = document.getElementById("img");
+        var mixer = mixitup(Alo);
+    </script>
+
+</body>
+</html>
